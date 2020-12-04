@@ -2,3 +2,7 @@ section {
   width: 30%;
   box-sizing: border-box;
 }
+
+p {
+  background-color: yellow;
+}
