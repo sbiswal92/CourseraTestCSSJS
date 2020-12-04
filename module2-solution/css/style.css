@@ -7,4 +7,5 @@ p {
   background-color: yellow;
   width: 30%;
   margin: 5px;
+  display: inline;
 }
