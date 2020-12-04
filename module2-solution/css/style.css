@@ -1,11 +1,13 @@
 section {
   width: 30%;
-  box-sizing: border-box;
+  display: inline-block;
+}
+
+section h3 {
+  position: top right;
 }
 
 p {
   background-color: yellow;
-  width: 30%;
   margin: 5px;
-  display: inline-block;
 }
