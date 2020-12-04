@@ -5,8 +5,11 @@ section {
   padding : 3px;
 }
 
-section h3 {
-  text-align:right;
+.title-region {
+  text-align: right;
+  border : 2px solid black;
+  padding: 2px;
+  margin: 0px 0px 1px 0px;
 }
 
 p {
