@@ -1,6 +1,7 @@
 section {
   width: 30%;
   display: inline-block;
+  border : 5px solid black;
 }
 
 section h3 {
