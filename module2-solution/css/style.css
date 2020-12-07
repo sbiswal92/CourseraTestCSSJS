@@ -4,7 +4,7 @@
 
 body {
   margin: auto;
-  
+  font-family: 'Acme';font-size: 18px;
 }
 
 section {
@@ -16,16 +16,26 @@ section {
   border: solid black;
   border-width: 0px 0px 1px 1px;
   line-height: 1%;
-  margin: 0px;
+  padding-left: 4px;
+  padding-right: 4px;
   float: right;
   background-color: DarkSeaGreen;
-  width: 25%;
+  width: 35%;
 }
 
-p {
+p.normal {
   background-color: LightGray;
   margin: 3px;
   clear: right;
+}
+
+p.inside-title {
+  font-size: 1.25em;
+}
+
+p.outside-title {
+  font-size: 1.75em;
+  text-align: center;
 }
 
 
