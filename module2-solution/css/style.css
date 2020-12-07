@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .title-region {
   text-align: right;
   border : 2px solid black;
@@ -13,10 +17,11 @@ p {
 
 @media (min-width:992px){
   section {
-  width: 30%;
+  width: 33%;
   display: inline-block;
   border : 5px solid black;
   padding : 3px;
+  margin: 2px;
   }
 }
 
@@ -26,6 +31,7 @@ p {
   display: inline-block;
   border : 5px solid black;
   padding : 3px;
+  margin: 2px;
 }
 }
 
