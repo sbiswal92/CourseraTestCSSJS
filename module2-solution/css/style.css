@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
 }
+body {
+  margin:auto;
+}
 
 .title-region {
   text-align: right;
