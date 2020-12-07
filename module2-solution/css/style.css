@@ -8,10 +8,11 @@
   padding: 0px;
   margin: 0px 0px 0px 0px;
   float: right;
+  background-color: DarkSeaGreen;
 }
 
 p {
-  background-color: yellow;
+  background-color: LightGray;
   margin: 5px;
   clear: right;
 }
@@ -21,7 +22,7 @@ p {
   width: 33%;
   display: inline-block;
   border : 1px solid black;
-  padding : 3px;
+  padding : 0px;
   margin: 2px;
   }
 }
@@ -31,7 +32,7 @@ p {
   width: 50%;
   display: inline-block;
   border : 1px solid black;
-  padding : 3px;
+  padding : 0px;
   margin: 2px;
 }
 }
@@ -41,7 +42,8 @@ p {
   width: 100%;
   display: inline-block;
   border : 1px solid black;
-  padding : 3px;
+  padding : 0px;
+  margin: 2px;
 }
 }
 
