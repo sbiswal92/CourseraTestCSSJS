@@ -20,7 +20,7 @@ p {
   section {
   width: 33%;
   display: inline-block;
-  border : 5px solid black;
+  border : 2px solid black;
   padding : 3px;
   margin: 2px;
   }
@@ -30,7 +30,7 @@ p {
     section {
   width: 50%;
   display: inline-block;
-  border : 5px solid black;
+  border : 2px solid black;
   padding : 3px;
   margin: 2px;
 }
@@ -40,7 +40,7 @@ p {
   section {
   width: 100%;
   display: inline-block;
-  border : 5px solid black;
+  border : 2px solid black;
   padding : 3px;
 }
 }
