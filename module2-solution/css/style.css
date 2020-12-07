@@ -1,18 +1,25 @@
 * {
   box-sizing: border-box;
 }
+
 body {
-  margin:auto;
+  margin: auto;
+  
+}
+
+section {
+  background-color: LightGray;
 }
 
 .title-region {
-  text-align: right;
-  border : solid black;
+  text-align: center;
+  border: solid black;
   border-width: 0px 0px 1px 1px;
-  padding: 0px 1em 0px 1em;
-  margin: 0px 0px 0px 0px;
+  line-height: 1%;
+  margin: 0px;
   float: right;
   background-color: DarkSeaGreen;
+  width: 25%;
 }
 
 p {
@@ -21,51 +28,52 @@ p {
   clear: right;
 }
 
-@media (min-width:992px){
-  
+
+@media (min-width:992px) {
+
   section.small-share {
-  width: 31%;
-  display: inline-block;
-  border : 1px solid black;
-  padding : 0px;
-  margin: 3px;
+    width: 30%;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 0px;
+    margin: 1%;
   }
   
-  section:first-child {
-    margin: 0px 3px 0px 30px;
-  }
-}
-
-@media (min-width:768px) and (max-width:991px){
-section.mid-share {
-  width: 49%;
-  display: inline-block;
-  border : 1px solid black;
-  padding : 0px;
-  margin: 3px;
-}
-  
-section.mid-alone {
-  width: 98%;
-  display: inline-block;
-  border : 1px solid black;
-  padding : 0px;
-  margin: 3px;
-  }
-  
- section:first-child {
-    margin: 0px 3px 0px 6px;
+  section:first-of-type {
+     margin: 2%;
   }
   
 }
 
-@media (max-width:767px){
+@media (min-width:768px) and (max-width:991px) {
+  section.mid-share {
+    width: 46%;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 0px;
+    margin: 1%;
+  }
+
+  section.mid-alone {
+    width: 96%;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 0px;
+    margin: 2%;
+  }
+
+   section:first-of-type {
+     margin: 2%;
+  }
+
+}
+
+@media (max-width:767px) {
   section.large-alone {
-  width: 98%;
-  display: inline-block;
-  border : 1px solid black;
-  padding : 0px;
-  margin: 6px;
+    width: 94%;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 0px;
+    margin: 2%;
+  }
 }
-}
-
