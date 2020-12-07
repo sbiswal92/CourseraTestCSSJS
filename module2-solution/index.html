@@ -1,26 +1,89 @@
-<html>
-<head>
-  <title> Module 2 solution </title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  <section class="large-alone mid-share small-share"> 
-    <div class="title-region">
-    <h4> Beef </h4>
-    </div>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida at risus eu volutpat. Ut condimentum euismod sagittis. Proin egestas posuere justo, quis viverra tellus laoreet a. Ut bibendum lacus vel lobortis dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida at risus eu volutpat.   </p>
-  </section>
-  <section class="large-alone mid-share small-share">
-     <div class="title-region">
-    <h4> Chicken </h4>
-       </div>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida at risus eu volutpat. Ut condimentum euismod sagittis. Proin egestas posuere justo, quis viverra tellus laoreet a. Ut bibendum lacus vel lobortis dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida at risus eu volutpat. </p>  
-   </section>
-  <section class="large-alone mid-alone small-share">
-     <div class="title-region">
-    <h4> Sushi </h4>
-       </div>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida at risus eu volutpat. Ut condimentum euismod sagittis. Proin egestas posuere justo, quis viverra tellus laoreet a. Ut bibendum lacus vel lobortis dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean gravida at risus eu volutpat.  </p>
-    </section>
-</body>
-</html>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  font-family: 'Acme';font-size: 18px;
+}
+
+section {
+  background-color: LightGray;
+}
+
+.title-region {
+  text-align: center;
+  border: solid black;
+  border-width: 0px 0px 1px 1px;
+  line-height: 1%;
+  padding-left: 4px;
+  padding-right: 4px;
+  float: right;
+  background-color: DarkSeaGreen;
+  width: 35%;
+}
+
+p.normal {
+  background-color: LightGray;
+  margin: 3px;
+  clear: right;
+}
+
+p.inside-title {
+  font-size: 1.25em;
+}
+
+p.outside-title {
+  font-size: 1.75em;
+  text-align: center;
+}
+
+
+@media (min-width:992px) {
+
+  section.small-share {
+    width: 30%;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 0px;
+    margin: 1%;
+  }
+  
+  section:first-of-type {
+     margin: 2%;
+  }
+  
+}
+
+@media (min-width:768px) and (max-width:991px) {
+  section.mid-share {
+    width: 46%;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 0px;
+    margin: 1%;
+  }
+
+  section.mid-alone {
+    width: 96%;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 0px;
+    margin: 2%;
+  }
+
+   section:first-of-type {
+     margin: 2%;
+  }
+
+}
+
+@media (max-width:767px) {
+  section.large-alone {
+    width: 94%;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 0px;
+    margin: 2%;
+  }
+}
